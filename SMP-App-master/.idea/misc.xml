@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/bottom_right_border.xml" value="0.1905" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/button_border.xml" value="0.157" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/circle_border.xml" value="0.1905" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/circle_yellow_border.xml" value="0.1905" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/left_border.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/left_bottom_border.xml" value="0.1905" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/left_no_border.xml" value="0.1905" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/rounded_image.xml" value="0.171" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/selected_slot_drawable.xml" value="0.136" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/drawable/shape.xml" value="0.171" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_forgot_email.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_forgot_password_email_sent.xml" value="0.14596554850407978" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_login_success.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_parking_detail_circular_quay.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_parking_detail_darling.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_parking_detail_sussex.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_payment.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_payment_success.xml" value="0.20820863616930313" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_select_slot.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_sign_up_success.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_ticket.xml" value="0.264" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/activity_timer.xml" value="0.264" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/bottom_sheet_dialog_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/circular_quary_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/darling_bottom_sheet.xml" value="0.1441523118766999" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/drawer_layout_home.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/header_navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/home_drawer_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/modal_bottom_sheet_content.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/modal_bottom_sheet_layout.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/layout/sussex_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/menu/navigation_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Niloy/AndroidStudioProjects/SMPApp/app/src/main/res/menu/navigation_menu.xml" value="0.1111111111111111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectSlot">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/slot_back_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:backgroundTint="#ffffffff"
+        android:contentDescription="woo"
+        android:elevation="0dp"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:text="Select Space"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Entry"
+        />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:foregroundGravity="center_horizontal">
+
+            <View
+                android:id="@+id/view_firstName"
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff666666"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:elevation="0dp"
+                android:shadowRadius="0"
+                android:id="@+id/slot_A01"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A01"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A02"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A02"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A01" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A03"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A03"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A02" />
+
+            <android.widget.Button
+                android:id="@+id/slot_A04"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A04"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A03" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A05"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+                android:padding="10dp"
+                android:text="A05"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A04" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A06"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A06"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A05" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A07"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_border"
+
+                android:text="A07"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slot_A06"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A08"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A08"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A03"
+                app:layout_constraintTop_toTopOf="@id/slot_A03"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A09"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A09"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A04"
+                app:layout_constraintTop_toBottomOf="@id/slot_A08"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A10"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A10"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A05"
+                app:layout_constraintTop_toBottomOf="@id/slot_A09"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A11"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_border"
+
+                android:text="A11"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A08"
+                app:layout_constraintTop_toBottomOf="@id/slot_A02"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A12"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_border"
+
+                android:text="A12"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A09"
+                app:layout_constraintTop_toBottomOf="@id/slot_A03"
+
+                />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A13"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_border"
+
+                android:text="A13"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A10"
+                app:layout_constraintTop_toBottomOf="@id/slot_A04"
+
+                />
+
+            <android.widget.Button
+
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A14"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A14"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+
+                android:id="@+id/slot_A15"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A15"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A14" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+
+                android:id="@+id/slot_A16"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A16"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A15" />
+
+            <android.widget.Button
+                android:stateListAnimator="@null"
+
+                android:id="@+id/slot_A17"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A17"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A16" />
+
+            <android.widget.Button
+
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A18"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A18"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A17" />
+
+            <android.widget.Button
+
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A19"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A19"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A18" />
+
+            <android.widget.Button
+
+                android:stateListAnimator="@null"
+                android:id="@+id/slot_A20"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/left_no_border"
+
+                android:text="A20"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/slot_A11"
+
+                app:layout_constraintTop_toBottomOf="@id/slot_A19" />
+
+            <View
+                android:id="@+id/bottom_horizontal_line_slot"
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff666666"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Exit"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/slot_continue"
+        android:layout_width="match_parent"
+        style="@style/Widget.Material3.Button"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="50dp"
+        android:height="60dp"
+        android:minHeight="54dp"
+        android:text="Continue"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

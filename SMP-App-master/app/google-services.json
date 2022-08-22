@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409894940711",
+    "firebase_url": "https://smart-park-9a39e-default-rtdb.firebaseio.com",
+    "project_id": "smart-park-9a39e",
+    "storage_bucket": "smart-park-9a39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409894940711:android:45421e983f2df22da89e02",
+        "android_client_info": {
+          "package_name": "com.example.smpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409894940711-eog9hovkmm888092cnksv57maalopc9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfZYTis2yqSg-J8WxcQwKUxRO_XBXNgLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409894940711-eog9hovkmm888092cnksv57maalopc9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

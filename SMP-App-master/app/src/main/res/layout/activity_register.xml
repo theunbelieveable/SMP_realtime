@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+
+    >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/reg_back01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="4dp"
+                android:text="Your Name"
+                android:textColor="#ff111111"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/name_layout"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="4dp"
+                android:maxWidth="48dp"
+                android:minHeight="48dp"
+                app:boxBackgroundColor="#fff3f6ff"
+                app:boxCornerRadiusBottomEnd="35dp"
+                app:boxCornerRadiusBottomStart="35dp"
+                app:boxCornerRadiusTopEnd="35dp"
+                app:boxCornerRadiusTopStart="35dp"
+                app:boxStrokeWidth="0dp"
+                app:endIconTint="@color/material_dynamic_primary50"
+                app:layout_constraintBottom_toTopOf="@+id/email_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconContentDescription="person"
+                app:startIconDrawable="@drawable/ic_outline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Full Name"
+                    android:inputType="textCapWords"
+                    app:hintTextColor="#FFA4ABC1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+
+                android:id="@+id/email_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="4dp"
+                android:text="Email Address"
+                android:textColor="#ff111111"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/email_layout"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="4dp"
+                android:autofillHints="emailAddress"
+                android:maxWidth="48dp"
+                android:minHeight="48dp"
+                app:boxBackgroundColor="#fff3f6ff"
+
+                app:boxCornerRadiusBottomEnd="35dp"
+                app:boxCornerRadiusBottomStart="35dp"
+                app:boxCornerRadiusTopEnd="35dp"
+                app:boxCornerRadiusTopStart="35dp"
+                app:boxStrokeWidth="0dp"
+                app:endIconTint="@color/material_dynamic_primary50"
+                app:layout_constraintBottom_toTopOf="@+id/password_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconContentDescription="person"
+                app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter your email"
+                    android:inputType="textEmailAddress"
+                    app:hintTextColor="#FFA4ABC1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/password_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="4dp"
+                android:text="Password"
+                android:textColor="#ff111111"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/password_layout"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="4dp"
+                android:maxWidth="48dp"
+                android:minHeight="48dp"
+                app:boxBackgroundColor="#fff3f6ff"
+                app:boxCornerRadiusBottomEnd="35dp"
+
+                app:boxCornerRadiusBottomStart="35dp"
+                app:boxCornerRadiusTopEnd="35dp"
+                app:boxCornerRadiusTopStart="35dp"
+                app:boxStrokeWidth="0dp"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/material_dynamic_primary50"
+                app:layout_constraintBottom_toTopOf="@+id/car_reg_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconContentDescription="person"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    app:hintTextColor="#FFA4ABC1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/car_reg_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="4dp"
+                android:text="Car Registration Number"
+                android:textColor="#ff111111"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/car_reg_layout"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/car_reg_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:hint="XXYYZZ"
+                android:maxWidth="48dp"
+                android:minHeight="48dp"
+                app:boxBackgroundColor="#fff3f6ff"
+                app:boxCornerRadiusBottomEnd="35dp"
+                app:boxCornerRadiusBottomStart="35dp"
+
+                app:boxCornerRadiusTopEnd="35dp"
+                app:boxCornerRadiusTopStart="35dp"
+                app:boxStrokeWidth="0dp"
+                app:hintTextColor="#FFA4ABC1"
+                app:layout_constraintBottom_toTopOf="@id/vehicle_name_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconContentDescription="person"
+                app:startIconDrawable="@drawable/ic_outline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/car_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/vehicle_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="4dp"
+                android:text="Vehicle Name"
+                android:textColor="#ff111111"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/vehicle_name_layout"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/vehicle_name_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:hint="2013 Gran Turismo"
+                android:maxWidth="48dp"
+                android:minHeight="48dp"
+
+                app:boxBackgroundColor="#fff3f6ff"
+                app:boxCornerRadiusBottomEnd="35dp"
+                app:boxCornerRadiusBottomStart="35dp"
+
+                app:boxCornerRadiusTopEnd="35dp"
+                app:boxCornerRadiusTopStart="35dp"
+                app:boxStrokeWidth="0dp"
+                app:hintTextColor="#FFA4ABC1"
+                app:layout_constraintBottom_toTopOf="@+id/check"
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconContentDescription="person"
+                app:startIconDrawable="@drawable/ic_baseline_directions_car_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/vehicle_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:text="@string/tac"
+                app:layout_constraintBottom_toTopOf="@id/register"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+            <Button
+                android:id="@+id/register"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="16dp"
+                android:layout_marginTop="16dp"
+                android:height="70dp"
+                android:minHeight="54dp"
+                android:text="Create Account"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:text="some"
+        android:textColor="@android:color/transparent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/textField"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="@string/label"-->
+
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        >-->
+
+    <!--        <com.google.android.material.textfield.TextInputEditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+
+    <!--            />-->
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

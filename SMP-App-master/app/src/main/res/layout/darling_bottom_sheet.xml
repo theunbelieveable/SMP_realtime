@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/darling_bottom_sheet_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+
+    >
+
+    <LinearLayout
+
+        android:id="@+id/darling_bottom_sheet_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:shadowRadius="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:text="PARKING DETAIL"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/rounded_image"
+                android:clipToOutline="true"
+                android:foreground="@drawable/parking_detail_darling_harbor" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking Lot of Darling Harbour"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The Rocks NSW 2000, Sydney"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/white"
+            android:foreground="@drawable/ic_baseline_bookmark_border_24"
+            android:foregroundTint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/distance_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            android:text="9 km²"
+
+
+            app:chipBackgroundColor="#fff3f6ff"
+            app:chipIcon="@drawable/ic_baseline_border_inner_24"
+            app:chipIconTint="#ff567Df4" />
+
+        <com.google.android.material.chip.Chip
+
+            android:id="@+id/alarm_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            android:text="8 AM - 9 PM"
+
+            app:chipBackgroundColor="#fff3f6ff"
+            app:chipIcon="@drawable/ic_baseline_alarm_24"
+            app:chipIconTint="#ff567Df4" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:text="RULES"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="6dp"
+            android:lineSpacingMultiplier="1.1"
+            android:maxLines="3"
+            android:text="@string/ext2"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="#fff3f6ff"
+                >
+
+                <Button
+                    android:id="@+id/bottom_sheet_darling_slots"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/left_border"
+                    android:elevation="0dp"
+                    android:text="5 slots available"
+                    android:textColor="@color/black"
+
+                    >
+
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="6dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="#fff3f6ff"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/left_border"
+                    android:elevation="0dp"
+                    android:text="$ 1.00 per hour"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+
+                    >
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/darling_direction"
+            android:layout_width="match_parent"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:height="60dp"
+            android:minHeight="54dp"
+            android:text="Direction"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

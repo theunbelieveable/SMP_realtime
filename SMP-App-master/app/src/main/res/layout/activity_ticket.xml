@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff567DF4"
+    android:orientation="vertical"
+    tools:context=".TimerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:background="@drawable/ticketback02"
+        >
+        <TextView
+            android:id="@+id/ticket_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking Lot of Victoria University"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="45dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+
+            android:id="@+id/ticket_vehicle_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:textSize="19dp"
+            android:layout_marginStart="20dp"
+            android:text="VEHICLE"
+
+            />
+
+
+        <TextView
+            android:id="@+id/ticket_vehicle"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_vehicle_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textSize="19dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:text="2021 Audi Q3 • B 1234 CD"
+
+            />
+        <TextView
+
+            android:id="@+id/ticket_user_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:layout_marginStart="20dp"
+            android:text="USER"
+
+            />
+
+
+        <TextView
+            android:id="@+id/ticket_user"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_user_label"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manish Ranjitkar"
+            android:layout_marginTop="0dp"
+            android:textSize="19dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+
+            />
+        <TextView
+
+            android:id="@+id/ticket_duration_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:layout_marginStart="20dp"
+            android:text="DURATION"
+
+            />
+
+        <TextView
+            android:id="@+id/ticket_duration"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ticket_duration_label"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 hours • 24 April, 2022"
+
+            />
+        <TextView
+            android:id="@+id/ticket_slot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slot A01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="218dp"
+            android:textStyle="bold"
+            android:textSize="26dp"
+
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="14dp"
+        >
+    <Button
+        android:id="@+id/ticket_done"
+        style="@style/Widget.Material3.Button"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:height="60dp"
+        android:minHeight="54dp"
+        android:text="Done"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:textColor="#ff567df4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</LinearLayout>

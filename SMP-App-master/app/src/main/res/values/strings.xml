@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SMP App</string>
+    <string name="tac">
+I agree to <a href='https://www.wikipedia.org/'>Terms and Conditions.</a>
+</string>
+    <string name="ext1">These rules and regulations for the use of Circular Quay Parking Area. In these Rules, unless the context otherwise requires "<b>"...more"</b>"</string>
+    <string name="ext2">These rules and regulations for the use of Darling Harbour Parking Area. In these Rules, unless the context otherwise requires "<b>"...more"</b>"</string>
+    <string name="ext3">These rules and regulations for the use of Victoria University Parking Area. In these Rules, unless the context otherwise requires "<b>"...more"</b>"</string>
+
+</resources>

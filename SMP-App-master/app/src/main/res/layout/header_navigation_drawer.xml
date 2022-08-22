@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--android:layout_marginStart="24dp"-->
+    <!--android:layout_marginEnd="24dp"-->
+    <!--android:text="some header text" />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="50dp">
+
+        <Button
+            android:id="@+id/header_nav_drawer_icon"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:drawableTint="@color/black"
+            android:foregroundTint="@color/black"
+            android:textColor="@color/black"
+            android:tint="@color/black"
+            android:tintMode="@color/black"
+            app:icon="@drawable/ic_outline_dehaze_24"
+            app:tint="@null" />
+
+        <Button
+            android:id="@+id/header_nav_notification_icon"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="50dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:drawableTint="@color/black"
+            android:foregroundTint="@color/black"
+            android:textColor="@color/black"
+            android:tint="@color/black"
+            android:tintMode="@color/black"
+            app:icon="@drawable/ic_outline_notifications_24"
+            app:tint="@null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff3f6ff">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/drawer_profile_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/drawer_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manish Ranjitkar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Merrylands, Sydney"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/settings_icon" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/drawer_nearby_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="24dp"
+        android:text="Nearby"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/drawer_payment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+
+        android:text="Payment"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Support"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+
+        android:text="Community"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/drawer_logout_button"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:src="@drawable/drawer_logout" />
+    </LinearLayout>
+</LinearLayout>
